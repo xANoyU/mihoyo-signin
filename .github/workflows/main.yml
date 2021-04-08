@@ -18,4 +18,4 @@ jobs:
       - name: run sign
         run: node index.js
         env:
-          COOKIE_4NANAI: ${{secrets.COOKIE_4NANAI}}
+          COOKIE_STRING: ${{secrets.COOKIE_4NANAI}}
