@@ -1,4 +1,4 @@
-name: "Mihoyo SignIn"
+name: "Mihoyo SignIn 4nanai"
 
 on:
   workflow_dispatch:
@@ -18,4 +18,4 @@ jobs:
       - name: run sign
         run: node index.js
         env:
-          COOKIE_STRING: ${{secrets.COOKIE_STRING}}
+          COOKIE_STRING: ${{secrets.COOKIE_4nanai}}
